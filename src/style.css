@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Futura Heavy";
+    src: url("../src/data/Futura\ Heavy\ font.ttf");
+}
+
+
+body {
+    background-color: black;
+}
+
+
+.outer {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+
+.about-card {
+    background-color: rgb(89, 67, 142);
+    margin: auto;
+    width: 10cm;
+    height: 10cm;
+    border: 10px solid white;
+    border-radius: 20px;
+    transform: perspective(10cm) rotateX(20deg);
+}
+
+
+h1 {
+    font-family: 'Futura Heavy';
+}
+
+
+.info {
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+a {
+    color: rgb(246, 99, 91);
+}
